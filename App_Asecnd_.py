@@ -240,6 +240,13 @@ dem_subs_chart = px.bar(dem_subs,color=var_2_m,x=var_1_m,barmode='group',
 multivariate_charts.plotly_chart(dem_subs_chart)
 
 
+##top 100 apps
+st.write('Top 100 Applications')
+st.dataframe(data.sort_values(by='Impact_Factor',ascending=False)[['Application','Reviews','Downloads','Impact_Factor','Genres','Content Rating','File Size']]).head(100)
+
+st.write('Top 100 Applications')
+st.dataframe(data.sort_values(by='Impact_Factor',ascending=False)[['Application','Reviews','Downloads','Impact_Factor','Genres','Content Rating','File Size']).tail(100)
+
 
 ##### Model Building 
 ######
