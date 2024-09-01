@@ -75,7 +75,7 @@ un_con_chart_ = un_con_chart.container(border=True)
 
 #description
 un_con_des_.markdown("""
-                    <div style='text-align: justify;color:black;font-size:12px;'>After looking the the distribution of categorical variables let us also study the distribution and spread of continuos variables.</div>""",unsafe_allow_html=True)
+                    <div style='text-align: justify;color:black;font-size:12px;'>After looking at the distribution of categorical variables let us also study the distribution and spread of continous variables.</div>""",unsafe_allow_html=True)
 un_con_des_.write('\n')
 un_con_des_.markdown("""
                     <div style='text-align: justify;color:black;font-size:12px;'>Feel free to explore and play around and derive insights of your own, Some of our observations are given below:
