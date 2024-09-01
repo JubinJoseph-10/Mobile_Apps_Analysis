@@ -106,13 +106,13 @@ bivariate_charts_ = bivariate_charts.container(border=True)
 
 #description
 bivariate_des_.markdown("""
-                    <div style='text-align: justify;color:black;font-size:12px;'>Now we dive deeper into how variables are interacting with each other. This helps in understanding how variables/entities stack up against each other given a certain KPI of your choice. You are once again free to play around with the charts below and compare and see for yourself how data unfolds.</div>""",unsafe_allow_html=True)
+                    <div style='text-align: justify;color:black;font-size:14px;'>Now we dive deeper into how variables are interacting with each other. This helps in understanding how variables/entities stack up against each other given a certain KPI of your choice. You are once again free to play around with the charts below and compare and see for yourself how data unfolds.</div>""",unsafe_allow_html=True)
 bivariate_des_.write('\n')
 bivariate_des_.markdown("""
-                    <div style='text-align: justify;color:black;font-size:12px;'>Feel free to explore and play around and derive insights of your own, Some of our observations are given below:
+                    <div style='text-align: justify;color:black;font-size:14px;'>Feel free to explore and play around and derive insights of your own, Some of our observations are given below:
 <ul>
-  <li style='font-size: 12px;'>The average number of downloads for paid vs free apps show us a significant difference with downloads for <b>free apps being at 14.2 Millions as opposed to 259.3K Downloads for paid apps </b></li>
-  <li style='font-size: 12px;'>In terms of reviews for both application versions and android versions supprted, <b> dynamic verions perform better on all KPIs.</b></li>
+  <li style='font-size: 14px;'>The average number of downloads for paid vs free apps show us a significant difference with downloads for <b>free apps being at 14.2 Millions as opposed to 259.3K Downloads for paid apps </b></li>
+  <li style='font-size: 14px;'>In terms of reviews for both application versions and android versions supprted, <b> dynamic verions perform better on all KPIs.</b></li>
 </ul></div>""",unsafe_allow_html=True)
 bivariate_des_.write('\n')
 
@@ -147,10 +147,10 @@ bivariate_charts_sun_ = bivariate_charts_sun.container(border=True)
 
 #description
 bivariate_des_sun_.markdown("""
-                    <div style='text-align: justify;color:black;font-size:12px;'>A Sunburst chart is a type of data visualization that displays hierarchical data using a series of concentric rings. Each ring represents a level in the hierarchy, with the innermost circle being the root level and outer rings representing deeper levels. The size of each segment in the chart typically reflects a quantitative value, and the colors can help differentiate between categories or highlight specific data points.</div>""",unsafe_allow_html=True)
+                    <div style='text-align: justify;color:black;font-size:14px;'>A Sunburst chart is a type of data visualization that displays hierarchical data using a series of concentric rings. Each ring represents a level in the hierarchy, with the innermost circle being the root level and outer rings representing deeper levels. The size of each segment in the chart typically reflects a quantitative value, and the colors can help differentiate between categories or highlight specific data points.</div>""",unsafe_allow_html=True)
 bivariate_des_sun_.write('\n')
 bivariate_des_sun_.markdown("""
-                    <div style='text-align: justify;color:black;font-size:12px;'>Feel free to explore and play around and derive insights of your own.
+                    <div style='text-align: justify;color:black;font-size:14px;'>Feel free to explore and play around and derive insights of your own.
 </ul></div>""",unsafe_allow_html=True)
 bivariate_des_sun_.write('\n')
 #variable selection for sunburst chart
@@ -200,13 +200,13 @@ multivariate_charts = multivariate_charts.container(border=True)
 
 #description
 multivariate_des_.markdown("""
-                    <div style='text-align: justify;color:black;font-size:12px;'>A Sunburst chart is a type of data visualization that displays hierarchical data using a series of concentric rings. Each ring represents a level in the hierarchy, with the innermost circle being the root level and outer rings representing deeper levels. The size of each segment in the chart typically reflects a quantitative value, and the colors can help differentiate between categories or highlight specific data points.</div>""",unsafe_allow_html=True)
+                    <div style='text-align: justify;color:black;font-size:14px;'>Now we explore how multiple variables interact and influence each other across various metrics. This section provides insights into how different data points aggregate and compare based on selected KPIs. By examining the visualizations below, you can investigate relationships between metrics, uncover patterns, and assess performance from different perspectives.</div>""",unsafe_allow_html=True)
 multivariate_des_.write('\n')
 multivariate_des_.markdown("""
-                    <div style='text-align: justify;color:black;font-size:12px;'>Feel free to explore and play around and derive insights of your own, Some of our observations are given below:
+                    <div style='text-align: justify;color:black;font-size:14px;'>Feel free to explore and play around and derive insights of your own, Some of our observations are given below:
 <ul>
-  <li style='font-size: 12px;'>Majority of the Applications are Free <b>97%</b></li>
-  <li style='font-size: 12px;'><b>77%</b> of all the Applcations are Content Rated <b>Everyone</b></li>
+  <li style='font-size: 12px;'>The average number of downloads and reviews for teen content was significantly higher when the application size varied with the device.</li>
+  <li style='font-size: 12px;'>For both paid and free apps, the average number of reviews was highest for applications that varied with the device. </li>
 </ul></div>""",unsafe_allow_html=True)
 multivariate_des_.write('\n')
 
