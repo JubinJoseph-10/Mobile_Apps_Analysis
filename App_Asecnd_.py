@@ -225,7 +225,7 @@ def level(basis):
         dem_subs = data.groupby([var_1_m,var_2_m])[kpi_dist_m].count()        
     elif basis =='Sum':
         dem_subs = data.groupby([var_1_m,var_2_m])[kpi_dist_m].sum()
-    elif basis =='Sum':
+    elif basis =='Average':
         dem_subs = data.groupby([var_1_m,var_2_m])[kpi_dist_m].mean().round(1)
     return dem_subs
 
