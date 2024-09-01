@@ -287,7 +287,7 @@ y_pred_rfc = model_rfc.predict(X_test)
 #visualisation of accracy
 cm = confusion_matrix(y_test, y_pred_rfc)
 # Create the heatmap plot using Plotly Express
-con_mat = px.imshow(cm, labels=dict(x="Predicted", y="True"), x=['Not Successful', 'Successfull'], y=['Not Successful', 'Successfull'], color_continuous_scale='Blues',text_auto=True,title='Confusion Matrix Predicted Customer Churn')
+con_mat = px.imshow(cm, labels=dict(x="Predicted", y="True"), x=['Not Successful', 'Successfull'], y=['Not Successful', 'Successfull'], color_continuous_scale='Blues',text_auto=True,title='Confusion Matrix Application Success')
 # Update the color axis to hide the scale
 con_mat.update_coloraxes(showscale=False)
 #creating a container for model_accuracy
