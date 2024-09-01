@@ -53,7 +53,7 @@ univariate_des_ = univariate_des.container(border=True)
 univariate_charts_ = univariate_charts.container(border=True)
 #description
 univariate_des_.markdown("""
-                    <div style='text-align: justify;color:black;font-size:12px;'>Before we dive deeper into determination of factors important to indicate success, we take a loot at the distribution of our mobile applications across various variables. This helps use in undersatdning the popular genres, underrated/unexplored genres, how are applications distributed across thier versions along with android versions supported.</div>""",unsafe_allow_html=True)
+                    <div style='text-align: justify;color:black;font-size:12px;'>Before we dive deeper into determination of factors important to indicate success, we take a look at the distribution of our mobile applications across various variables. This helps us in understanding the popular genres, underrated/unexplored genres, how are applications distributed across thier versions along with android versions supported.</div>""",unsafe_allow_html=True)
 univariate_des_.write('\n')
 univariate_des_.markdown("""
                     <div style='text-align: justify;color:black;font-size:12px;'>Feel free to explore and play around and derive insights of your own, Some of our observations are given below:
