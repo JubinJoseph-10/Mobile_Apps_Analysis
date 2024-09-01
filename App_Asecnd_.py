@@ -241,7 +241,8 @@ multivariate_charts.plotly_chart(dem_subs_chart)
 
 
 ##top 100 apps
-top_100 = data.sort_values(by='Impact_Factor',ascending=False)[['Application','Reviews','Downloads','Impact_Factor','Genres','Content Rating','File Size']].head(100)
+top_100 = data.sort_values(by='Impact_Factor',ascending=False).head(100)
+top_100 = top_100[['Application','Reviews','Downloads','Impact_Factor','Genres','Content Rating','File Size']]
 st.write('Top 100 Applications')
 st.dataframe(top_100) 
 
