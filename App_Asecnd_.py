@@ -150,10 +150,7 @@ bivariate_des_sun_.markdown("""
                     <div style='text-align: justify;color:black;font-size:12px;'>A Sunburst chart is a type of data visualization that displays hierarchical data using a series of concentric rings. Each ring represents a level in the hierarchy, with the innermost circle being the root level and outer rings representing deeper levels. The size of each segment in the chart typically reflects a quantitative value, and the colors can help differentiate between categories or highlight specific data points.</div>""",unsafe_allow_html=True)
 bivariate_des_sun_.write('\n')
 bivariate_des_sun_.markdown("""
-                    <div style='text-align: justify;color:black;font-size:12px;'>Feel free to explore and play around and derive insights of your own, Some of our observations are given below:
-<ul>
-  <li style='font-size: 12px;'>Majority of the Applications are Free <b>97%</b></li>
-  <li style='font-size: 12px;'><b>77%</b> of all the Applcations are Content Rated <b>Everyone</b></li>
+                    <div style='text-align: justify;color:black;font-size:12px;'>Feel free to explore and play around and derive insights of your own.
 </ul></div>""",unsafe_allow_html=True)
 bivariate_des_sun_.write('\n')
 #variable selection for sunburst chart
