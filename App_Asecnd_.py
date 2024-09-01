@@ -245,7 +245,7 @@ st.write('Top 100 Applications')
 st.dataframe(data.sort_values(by='Impact_Factor',ascending=False)[['Application','Reviews','Downloads','Impact_Factor','Genres','Content Rating','File Size']]).head(100)
 
 st.write('Top 100 Applications')
-st.dataframe(data.sort_values(by='Impact_Factor',ascending=False)[['Application','Reviews','Downloads','Impact_Factor','Genres','Content Rating','File Size']).tail(100)
+st.dataframe(data.sort_values(by='Impact_Factor',ascending=False)[['Application','Reviews','Downloads','Impact_Factor','Genres','Content Rating','File Size']]).tail(100)
 
 
 ##### Model Building 
