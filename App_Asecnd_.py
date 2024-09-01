@@ -30,13 +30,13 @@ st.markdown("""
 st.write('')
 st.write("\n")
 st.markdown("""
-    <div style='text-align: justify;color:black;font-size:13px;'>The mobile application market has seen exponential growth over the past decade, with the Google Play Store emerging as a dominant platform for app distribution. Our analysis focuses on a dataset comprising roughly <b>10,000 mobile applications</b>, each updated <b>between 2010 and 2018</b>. This period captures a critical phase in the evolution of mobile apps, where the industry witnessed significant shifts in user preferences, technological advancements, and market dynamics. As the app ecosystem became increasingly competitive, understanding what drives an application\'s success became essential for developers and businesses alike. This study aims to uncover the key factors that contribute to the success of free mobile applications and to outline a strategic roadmap for launching a successful app.</div>""",unsafe_allow_html=True)
+    <div style='text-align: justify;color:black;font-size:14px;'>The mobile application market has seen exponential growth over the past decade, with the Google Play Store emerging as a dominant platform for app distribution. Our analysis focuses on a dataset comprising roughly <b>10,000 mobile applications</b>, each updated <b>between 2010 and 2018</b>. This period captures a critical phase in the evolution of mobile apps, where the industry witnessed significant shifts in user preferences, technological advancements, and market dynamics. As the app ecosystem became increasingly competitive, understanding what drives an application\'s success became essential for developers and businesses alike. This study aims to uncover the key factors that contribute to the success of free mobile applications and to outline a strategic roadmap for launching a successful app.</div>""",unsafe_allow_html=True)
 st.write("\n") 
 st.markdown("""
-<div style='text-align: justify;color:black;font-size:13px;'>The analysis addresses two core questions or problem statements:
+<div style='text-align: justify;color:black;font-size:14px;'>The analysis addresses two core questions or problem statements:
 <ul>
-  <li style='font-size: 13px;'>What are the critical success factors for free apps on the Google Play Store?</li>
-  <li style='font-size: 13px;'>How can these insights be leveraged to ensure a successful app launch?</li>
+  <li style='font-size: 14px;'>What are the critical success factors for free apps on the Google Play Store?</li>
+  <li style='font-size: 14px;'>How can these insights be leveraged to ensure a successful app launch?</li>
 </ul></div>""",unsafe_allow_html=True)
 
 
@@ -53,13 +53,13 @@ univariate_des_ = univariate_des.container(border=True)
 univariate_charts_ = univariate_charts.container(border=True)
 #description
 univariate_des_.markdown("""
-                    <div style='text-align: justify;color:black;font-size:12px;'>Before we dive deeper into determination of factors important to indicate success, we take a look at the distribution of our mobile applications across various variables. This helps us in understanding the popular genres, underrated/unexplored genres, how are applications distributed across thier versions along with android versions supported.</div>""",unsafe_allow_html=True)
+                    <div style='text-align: justify;color:black;font-size:14px;'>Before we dive deeper into determination of factors important to indicate success, we take a look at the distribution of our mobile applications across various variables. This helps us in understanding the popular genres, underrated/unexplored genres, how are applications distributed across thier versions along with android versions supported.</div>""",unsafe_allow_html=True)
 univariate_des_.write('\n')
 univariate_des_.markdown("""
-                    <div style='text-align: justify;color:black;font-size:12px;'>Feel free to explore and play around and derive insights of your own, Some of our observations are given below:
+                    <div style='text-align: justify;color:black;font-size:14px;'>Feel free to explore and play around and derive insights of your own, Some of our observations are given below:
 <ul>
-  <li style='font-size: 12px;'>Majority of the Applications are Free <b>97%</b></li>
-  <li style='font-size: 12px;'><b>77%</b> of all the Applcations are Content Rated <b>Everyone</b></li>
+  <li style='font-size: 14px;'>Majority of the Applications are Free <b>97%</b></li>
+  <li style='font-size: 14px;'><b>77%</b> of all the Applcations are Content Rated <b>Everyone</b></li>
 </ul></div>""",unsafe_allow_html=True)
 univariate_des_.write('\n')
 variable_to_explore = univariate_des_.selectbox('Select a Variable to Explore!',['Application Size','Category','Content Rating',
@@ -75,13 +75,13 @@ un_con_chart_ = un_con_chart.container(border=True)
 
 #description
 un_con_des_.markdown("""
-                    <div style='text-align: justify;color:black;font-size:12px;'>After looking at the distribution of categorical variables let us also study the distribution and spread of continous variables.</div>""",unsafe_allow_html=True)
+                    <div style='text-align: justify;color:black;font-size:14px;'>After looking at the distribution of categorical variables let us also study the distribution and spread of continous variables.</div>""",unsafe_allow_html=True)
 un_con_des_.write('\n')
 un_con_des_.markdown("""
-                    <div style='text-align: justify;color:black;font-size:12px;'>Feel free to explore and play around and derive insights of your own, Some of our observations are given below:
+                    <div style='text-align: justify;color:black;font-size:14px;'>Feel free to explore and play around and derive insights of your own, Some of our observations are given below:
 <ul>
-  <li style='font-size: 12px;'>Significant skewness in almost all variables</li>
-  <li style='font-size: 12px;'>Downloads, Update Recency, Reviews are all left skewed but Ratings is right skewed</li>
+  <li style='font-size: 14px;'>Significant skewness in almost all variables</li>
+  <li style='font-size: 14px;'>Downloads, Update Recency, Reviews are all left skewed but Ratings is right skewed</li>
 </ul></div>""",unsafe_allow_html=True)
 un_con_des_.write('\n')
 con_variable_to_explore = un_con_des_.selectbox('Select a Variable to Explore!',['Ratings','Downloads','Reviews','Update Recency'])
