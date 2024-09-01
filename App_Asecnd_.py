@@ -111,8 +111,8 @@ bivariate_des_.write('\n')
 bivariate_des_.markdown("""
                     <div style='text-align: justify;color:black;font-size:12px;'>Feel free to explore and play around and derive insights of your own, Some of our observations are given below:
 <ul>
-  <li style='font-size: 12px;'>The average number of downloads for paid vs free apps show us a significant difference with downloads for <b>free apps being at 14.2 Millions as opposed to 259.3K Downloads for paid apps<\b></li>
-  <li style='font-size: 12px;'><b>77%</b> of all the Applcations are Content Rated <b>Everyone</b></li>
+  <li style='font-size: 12px;'>The average number of downloads for paid vs free apps show us a significant difference with downloads for <b>free apps being at 14.2 Millions as opposed to 259.3K Downloads for paid apps </b></li>
+  <li style='font-size: 12px;'>In terms of reviews for both application versions and android versions supprted, <b> dynamic verions perform better on all KPIs.</b></li>
 </ul></div>""",unsafe_allow_html=True)
 bivariate_des_.write('\n')
 
