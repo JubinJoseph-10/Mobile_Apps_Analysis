@@ -65,7 +65,7 @@ univariate_des_.write('\n')
 variable_to_explore = univariate_des_.selectbox('Select a Variable to Explore!',['Application Size','Category','Content Rating',
                                                                                  'Genres','Android Versions Supported','Application Verions'])
 #pie chart to show the distribution
-pie_univariate = px.pie(values=data[variable_to_explore].value_counts().values,names=data[variable_to_explore].value_counts().index.tolist(),color=data[variable_to_explore].value_counts().index.to_list(),title=f'Distribution of Applpications across {variable_to_explore}',height=450)
+pie_univariate = px.pie(values=data[variable_to_explore].value_counts().values,names=data[variable_to_explore].value_counts().index.tolist(),color=data[variable_to_explore].value_counts().index.to_list(),title=f'Distribution of Applications across {variable_to_explore}',height=450)
 univariate_charts_.plotly_chart(pie_univariate,use_container_width=True)
 
 ###Continuos
