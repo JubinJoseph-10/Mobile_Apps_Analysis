@@ -106,12 +106,12 @@ bivariate_charts_ = bivariate_charts.container(border=True)
 
 #description
 bivariate_des_.markdown("""
-                    <div style='text-align: justify;color:black;font-size:12px;'>Now we dive deeper into how variables are interacting with each other 2 at a time. This helps in undersatdning how variables/entities stack up against each other given a certain KPI of your choice. You are once again free to play around with the charts below and compare and see for yourself how data unfolds.</div>""",unsafe_allow_html=True)
+                    <div style='text-align: justify;color:black;font-size:12px;'>Now we dive deeper into how variables are interacting with each other. This helps in understanding how variables/entities stack up against each other given a certain KPI of your choice. You are once again free to play around with the charts below and compare and see for yourself how data unfolds.</div>""",unsafe_allow_html=True)
 bivariate_des_.write('\n')
 bivariate_des_.markdown("""
                     <div style='text-align: justify;color:black;font-size:12px;'>Feel free to explore and play around and derive insights of your own, Some of our observations are given below:
 <ul>
-  <li style='font-size: 12px;'>Majority of the Applications are Free <b>97%</b></li>
+  <li style='font-size: 12px;'>The average number of downloads for paid vs free apps show us a significant difference with downloads for <b>free apps being at 14.2 Millions as opposed to 259.3K Downloads for paid apps<\b></li>
   <li style='font-size: 12px;'><b>77%</b> of all the Applcations are Content Rated <b>Everyone</b></li>
 </ul></div>""",unsafe_allow_html=True)
 bivariate_des_.write('\n')
